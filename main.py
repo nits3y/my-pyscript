@@ -1,4 +1,3 @@
 from pyscript import display
 
-display("Hello, World!")
-
+display("Welcome to pyscript", target="output")
