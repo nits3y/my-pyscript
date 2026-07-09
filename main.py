@@ -1,3 +1,4 @@
-from pyscript import when, display
+from pyscript import display
 
 display("Hello, World!")
+
