@@ -1,16 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>PyScript App</title>
-    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.1/core.css" />
-    <script type="module" src="https://pyscript.net/releases/2026.7.1/core.js"></script>
-  </head>
-  <body>
-    <h1>My pyscript</h1>
+<head>
+  <meta charset="UTF-8">
+  <title>github testing command</title>
 
-    <div id="output"></div>
+  <!-- PyScript -->
+  <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+  <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
 
-    <script type="py" src="./main.py"></script>
-  </body>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 500px;
+      margin: 60px auto;
+      text-align: center;
+    }
+    input {
+      font-size: 18px;
+      padding: 8px;
+      width: 200px;
+      text-align: center;
+    }
+    #output {
+      margin-top: 20px;
+      font-size: 16px;
+      min-height: 24px;
+    }
+  </style>
+</head>
+<body>
+<form>
+  <div>
+    <label for="email">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="Enter your email"
+      required
+    >
+  </div>
+
+  <div>
+    <label for="password">Password</label>
+    <input
+      type="password"
+      id="password"
+      name="password"
+      placeholder="Enter your password"
+      required
+    >
+  </div>
+
+  <button type="submit">Login</button>
+</form>
+
+</body>
 </html>
